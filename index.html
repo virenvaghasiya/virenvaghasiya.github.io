@@ -2,38 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Viren Vaghasiya Portfolio</title>
+    <title>Viren Vaghasiya's Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
             margin: 0;
-            padding: 0;
         }
 
         .header {
-            background-color: #4CAF50;
+            background-color: #333;
             color: white;
             padding: 10px 0;
             text-align: center;
         }
 
         .nav {
-            background-color: #333;
+            background-color: #555;
             overflow: hidden;
         }
 
         .nav a {
             float: left;
-            display: block;
             color: white;
-            text-align: center;
-            padding: 14px 16px;
             text-decoration: none;
+            padding: 10px 20px;
         }
 
         .nav a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: #777;
+            color: white;
         }
 
         .content {
@@ -46,24 +45,34 @@
 
         .section-title {
             font-size: 1.5em;
-            color: #4CAF50;
+            color: #333;
+            border-bottom: 2px solid #555;
+            padding-bottom: 5px;
         }
 
-        .skills-list,
-        .certifications-list {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-
-        .experience-item,
-        .project-item {
+        .projects .project-item {
+            border: 1px solid #ddd;
+            padding: 10px;
             margin-bottom: 20px;
         }
 
-        .contact {
-            background-color: #f4f4f4;
+        .project-item h3 {
+            margin: 0 0 5px 0;
+        }
+
+        .contact-info {
+            background-color: #eee;
             padding: 10px;
             text-align: center;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            color: #555;
         }
     </style>
 </head>
@@ -75,101 +84,37 @@
 
     <div class="nav">
         <a href="#about">About Me</a>
-        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
-        <a href="#skills">Skills & Certifications</a>
-        <a href="#education">Education</a>
         <a href="#contact">Contact</a>
     </div>
 
     <div class="content">
         <div id="about" class="section">
             <div class="section-title">About Me</div>
-            <p>I'm an experienced Web Developer with a background in Data Science and Quality Control Management. My technical skills include Python, Django, and data visualization, and I've developed and maintained several front-end websites and resolved numerous bugs.</p>
-            <p>I also led a customer segmentation project as a Junior Data Scientist, boosting conversion rates by 20%, and implemented quality control procedures across multiple locations, ensuring 100% compliance with regulations.</p>
-            <p>Currently, I'm pursuing a Master's in Cybersecurity to further expand my IT security knowledge.</p>
+            <p>I'm an experienced Web Developer with a background in Data Science and Quality Control Management. My technical skills include Python, Django, and Data Visualization. I've led multiple projects that improved conversion rates, reduced website loading times, and enhanced quality control metrics.</p>
+            <p>Currently, I'm pursuing a Master's in Cybersecurity to expand my knowledge and skills in IT security.</p>
         </div>
 
-        <div id="experience" class="section">
-            <div class="section-title">Experience</div>
-            <div class="experience-item">
-                <strong>Quality Control Manager - Five Guys Europe</strong> <br> London, UK <br> November 2023 – Present <br>
-                <ul>
-                    <li>Implemented cross-departmental collaboration and real-time monitoring, boosting food safety compliance by 20%.</li>
-                    <li>Reduced violations by 30% through regular inspections and audits.</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <strong>Crew Member - Five Guys Europe</strong> <br> London, UK <br> October 2022 – November 2023 <br>
-                <ul>
-                    <li>Reduced customer complaints regarding cleanliness by 25%.</li>
-                    <li>Improved customer satisfaction scores by 10%.</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <strong>Data Scientist - BrainyBeam Technologies</strong> <br> Ahmedabad, IND <br> June 2021 – June 2022 <br>
-                <ul>
-                    <li>Achieved a 20% increase in conversion rates through customer segmentation initiatives.</li>
-                    <li>Improved decision-making processes by 15% through data analysis and visualization.</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <strong>Web Developer - NMR Enterprise</strong> <br> Ahmedabad, IND <br> May 2021 – June 2021 <br>
-                <ul>
-                    <li>Reduced website loading time by 30% through bug fixes.</li>
-                    <li>Increased website traffic by 40%, engaging and retaining users with intuitive interfaces.</li>
-                </ul>
-            </div>
-        </div>
-
-        <div id="projects" class="section">
+        <div id="projects" class="section projects">
             <div class="section-title">Projects</div>
+
             <div class="project-item">
-                <strong>Customer Segmentation System</strong>
-                <p>Developed a customer segmentation system using k-means clustering in Python and Django, optimizing the customer mix and boosting profitability by 30% through targeted marketing strategies.</p>
+                <h3>Customer Segmentation System</h3>
+                <p>Developed a system using k-means clustering in Python and Django, boosting profitability by 30% through targeted marketing strategies.</p>
             </div>
 
             <div class="project-item">
-                <strong>Android App for Students and Educators</strong>
-                <p>Developed an Android app to enable resource sharing and viewing, resulting in a 50% increase in user retention.</p>
+                <h3>Android App for Students and Educators</h3>
+                <p>Enabled resource sharing and viewing, resulting in a 50% increase in user retention.</p>
             </div>
 
             <div class="project-item">
-                <strong>Movie Recommendation System</strong>
-                <p>Created a movie recommendation system using Anaconda and Jupyter Notebook, achieving a 40% increase in user engagement and a 25% rise in premium subscriptions.</p>
+                <h3>Movie Recommendation System</h3>
+                <p>Created using Anaconda and Jupyter Notebook, achieving a 40% increase in user engagement and a 25% rise in premium subscriptions.</p>
             </div>
         </div>
 
-        <div id="skills" class="section">
-            <div class="section-title">Skills & Certifications</div>
-            <strong>Technical Skills:</strong>
-            <ul class="skills-list">
-                <li>Python, Spark, Hadoop, Tableau</li>
-                <li>Software Development, Django, HTML, CSS, JavaScript</li>
-                <li>Database Management Systems, Data Visualization</li>
-            </ul>
-
-            <strong>Certifications:</strong>
-            <ul class="certifications-list">
-                <li>Learn Ethical Hacking from Scratch</li>
-                <li>Data Science Job Simulation</li>
-                <li>Foundations of Cybersecurity</li>
-            </ul>
-        </div>
-
-        <div id="education" class="section">
-            <div class="section-title">Education</div>
-            <strong>University of West London</strong> <br> Masters of Science (MSc) in Cybersecurity <br> October 2022 – Present <br>
-            <p>Relevant coursework includes secure software engineering, applied cryptography, cloud security assurance, and software vulnerability analysis.</p>
-
-            <strong>Sardar Patel College of Engineering</strong> <br> Bachelor of Engineering (B.E.) in Information Technology <br> June 2018 – July 2022 <br>
-            <p>Relevant coursework includes database management systems, computer networks, operating systems, and data structures.</p>
-        </div>
-
-        <div id="contact" class="section contact">
+        <div id="contact" class="section contact-info">
             <div class="section-title">Contact</div>
             <p>Email: <a href="mailto:virenvaghasiya99@gmail.com">virenvaghasiya99@gmail.com</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/viren-vaghasiya">linkedin.com/in/viren-vaghasiya</a></p>
