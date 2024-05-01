@@ -17,7 +17,7 @@ My projects have led to significant outcomes, such as a 20% increase in conversi
 
 ## Hosting:
 
-This portfolio is hosted on GitHub Pages and can be accessed at [virenvaghasiya.github.io](https://virenvaghasiya.github.io).
+This portfolio is hosted on GitHub Pages and can be accessed at [virenvaghasiya.github.io](https://github.com/virenvaghasiya/virenvaghasiya.github.io/blob/main/index.html).
 
 ## Updates:
 
